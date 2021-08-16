@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: yellow;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width:300px;
+            height:150px;
+            border: 2px solid;
+        }
+        .orange{
+            background-color: orange;
+            height: 50px;
+        }
+        .white{
+            background-color: white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .blue{
+            border:2px solid blue;
+            height: 47px;
+            width: 47px;
+            border-radius: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .line{
+            background-color: blue;
+            height: 47px;
+            width: 2px;
+            position: absolute;
+        }
+        #line1{
+            transform: rotate(0deg);
+        }
+        #line2{
+            transform: rotate(15deg);
+        }
+        #line3{
+            transform: rotate(30deg);
+        }
+        #line4{
+            transform: rotate(45deg);
+        }
+        #line5{
+            transform: rotate(60deg);
+        }
+        #line6{
+            transform: rotate(75deg);
+        }
+        #line7{
+            transform: rotate(90deg);
+        }
+        #line8{
+            transform: rotate(105deg);
+        }
+        #line9{
+            transform: rotate(120deg);
+        }
+        #line10{
+            transform: rotate(135deg);
+        }
+        #line11{
+            transform: rotate(150deg);
+        }
+        #line12{
+            transform: rotate(165deg);
+        }
+
+        .green{
+            background-color: green;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="box">
+            <div class="orange"></div>
+
+            <div class="white">
+                <div class="blue">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                    <div class="line" id="line4"></div>
+                    <div class="line" id="line5"></div>
+                    <div class="line" id="line6"></div>
+                    <div class="line" id="line7"></div>
+                    <div class="line" id="line8"></div>
+                    <div class="line" id="line9"></div>
+                    <div class="line" id="line10"></div>
+                    <div class="line" id="line11"></div>
+                    <div class="line" id="line12"></div>
+                </div>
+            </div>
+
+            <div class="green"></div>
+        </div>
+    </div>
+</body>
+
+</html>
